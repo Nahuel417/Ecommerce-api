@@ -1,13 +1,26 @@
-FROM node:18
+# Etapa 1: Construyendo la app
+FROM node:18 as builder
 
-WORKDIR /ecommerce-nahuel417
+WORKDIR /app
 
-COPY ./ecommerce-nahuel417/package.json ./ecommerce-nahuel417/package-lock.json ./
+COPY package*.json ./
 
 RUN npm install
 
 COPY . .
 
-EXPOSE 3000
+# Compila el proyecto TypeScript a JavaScript
+RUN npm run build
 
-CMD ["npm", "run", "start"]
+# Etapa 2: Crea una imagen pequeña
+FROM node:18-alpine
+
+WORKDIR /app
+
+COPY --from=builder /app/dist ./dist
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/package*.json ./
+
+# EXPOSE 3000
+CMD ["node", "dist/main.js"]
+
