@@ -24,7 +24,7 @@ Esta API está diseñada para gestionar las principales funcionalidades de un si
 - **Swagger**: Documentación de la API interactiva.  
 - **Cloudinary**: Almacenamiento de imágenes en la nube. 
 
-### 🛠 Herramientas de Desarrollo  
+### Herramientas de Desarrollo  
 - **Docker**: Para contenerización y despliegue eficiente.  
 - **ESLint y Prettier**: Para mantener la calidad del código.  
 
