@@ -51,5 +51,3 @@ El proyecto está desplegado y accesible públicamente. Puedes acceder a la apli
 
 ### Consideraciones:
 - **Ambiente de producción**: Configurado con variables de entorno protegidas.
-- ![image](https://github.com/user-attachments/assets/2b592aa9-7b6a-4516-8870-9478e9ebdda7)
-
