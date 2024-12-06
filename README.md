@@ -31,7 +31,7 @@ Esta API está diseñada para gestionar las principales funcionalidades de un si
 ## 🚀 Despliegue en Producción
 El proyecto está desplegado y accesible públicamente. Puedes acceder a la aplicación en el siguiente enlace:
 
-[**https://ecommerce-api-mbho.onrender.com/api**](https://ecommerce-api-mbho.onrender.com/api)
+<a href="https://ecommerce-api-mbho.onrender.com/api" target="_blank">(https://ecommerce-api-mbho.onrender.com/api)
 
 ### Tecnologías utilizadas para el despliegue:
 - **Docker**: Contenedorización del backend y la base de datos.
