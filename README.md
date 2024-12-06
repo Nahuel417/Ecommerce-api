@@ -43,11 +43,11 @@ El proyecto está desplegado y accesible públicamente. Puedes acceder a la apli
 - Accede al enlace proporcionado.
 - Usa las siguientes credenciales para probar funcionalidades específicas (si aplica):
   - Usuario de prueba:
-    - **Email:** `testuser@demo.com`
-    - **Contraseña:** `123456`
+    - **Email:** `example@mail.com`
+    - **Contraseña:** `Example1!`
   - Administrador de prueba:
-    - **Email:** `admin@demo.com`
-    - **Contraseña:** `admin123`
+    - **Email:** `exampleadmin@mail.com`
+    - **Contraseña:** `Example1!`
 
 ### Consideraciones:
 - **Ambiente de producción**: Configurado con variables de entorno protegidas.
