@@ -1,9 +1,9 @@
-# API de Gestión de E-commerce!
+# 👋 API de Gestión de E-commerce!
 
-## Descripción  
+## 📝 Descripción  
 Esta API está diseñada para gestionar las principales funcionalidades de un sistema de e-commerce. Permite administrar productos, autenticar usuarios y procesar pedidos de manera eficiente, utilizando herramientas modernas y seguras.
 
-## Objetivos del Proyecto  
+## 🎯 Objetivos del Proyecto  
 - **Gestión de productos**: Crear, editar, eliminar y listar productos en la tienda.  
 - **Autenticación y autorización**: Garantizar acceso seguro mediante JWT y roles (admin y usuario).  
 - **Procesamiento de pedidos**: Crear pedidos vinculados a usuarios registrados.  
@@ -11,7 +11,7 @@ Esta API está diseñada para gestionar las principales funcionalidades de un si
 - **Escalabilidad y despliegue**: Implementar contenedores Docker para facilitar el despliegue y la escalabilidad.  
 - **Almacenamiento seguro de archivos**: Usar Cloudinary para la carga y gestión de imágenes de productos.  
 
-## Tecnologías Utilizadas  
+## 💻 Tecnologías Utilizadas  
 
 ### Lenguajes de Programación  
 - **TypeScript**: Aporta tipado estático para un código más robusto y mantenible.  
@@ -24,6 +24,30 @@ Esta API está diseñada para gestionar las principales funcionalidades de un si
 - **Swagger**: Documentación de la API interactiva.  
 - **Cloudinary**: Almacenamiento de imágenes en la nube. 
 
-### Herramientas de Desarrollo  
+### ⚙ Herramientas de Desarrollo  
 - **Docker**: Para contenerización y despliegue eficiente.  
 - **ESLint y Prettier**: Para mantener la calidad del código.  
+
+## 🚀 Despliegue en Producción
+El proyecto está desplegado y accesible públicamente. Puedes acceder a la aplicación en el siguiente enlace:
+
+[**https://ecommerce-api-mbho.onrender.com/api**](https://ecommerce-api-mbho.onrender.com/api)
+
+### Tecnologías utilizadas para el despliegue:
+- **Docker**: Contenedorización del backend y la base de datos.
+- **Cloudinary**: Gestión de imágenes para productos.
+- **PostgreSQL**: Base de datos relacional para almacenar la información.
+- **Servidor de Producción**: [Render]
+
+### Cómo probar el despliegue:
+- Accede al enlace proporcionado.
+- Usa las siguientes credenciales para probar funcionalidades específicas (si aplica):
+  - Usuario de prueba:
+    - **Email:** `testuser@demo.com`
+    - **Contraseña:** `123456`
+  - Administrador de prueba:
+    - **Email:** `admin@demo.com`
+    - **Contraseña:** `admin123`
+
+### Consideraciones:
+- **Ambiente de producción**: Configurado con variables de entorno protegidas.
