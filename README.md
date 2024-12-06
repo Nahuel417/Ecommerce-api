@@ -1,73 +1,53 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# 👋 API de Gestión de E-commerce!
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+## 📝 Descripción  
+Esta API está diseñada para gestionar las principales funcionalidades de un sistema de e-commerce. Permite administrar productos, autenticar usuarios y procesar pedidos de manera eficiente, utilizando herramientas modernas y seguras.
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+## 🎯 Objetivos del Proyecto  
+- **Gestión de productos**: Crear, editar, eliminar y listar productos en la tienda.  
+- **Autenticación y autorización**: Garantizar acceso seguro mediante JWT y roles (admin y usuario).  
+- **Procesamiento de pedidos**: Crear pedidos vinculados a usuarios registrados.  
+- **Documentación interactiva**: Proveer documentación detallada mediante Swagger para facilitar la integración de clientes.  
+- **Escalabilidad y despliegue**: Implementar contenedores Docker para facilitar el despliegue y la escalabilidad.  
+- **Almacenamiento seguro de archivos**: Usar Cloudinary para la carga y gestión de imágenes de productos.  
 
-## Description
+## 💻 Tecnologías Utilizadas  
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+### Lenguajes de Programación  
+- **TypeScript**: Aporta tipado estático para un código más robusto y mantenible.  
 
-## Installation
+### Back-End  
+- **NestJS**: Framework para construir aplicaciones del lado del servidor de manera modular y escalable.  
+- **TypeORM**: ORM para interactuar con la base de datos PostgreSQL.  
+- **PostgreSQL**: Base de datos relacional para almacenar la información de productos, usuarios y pedidos.  
+- **JWT**: Para la autenticación y autorización de usuarios.  
+- **Swagger**: Documentación de la API interactiva.  
+- **Cloudinary**: Almacenamiento de imágenes en la nube. 
 
-```bash
-$ npm install
-```
+### 🛠 Herramientas de Desarrollo  
+- **Docker**: Para contenerización y despliegue eficiente.  
+- **ESLint y Prettier**: Para mantener la calidad del código.  
 
-## Running the app
+## 🚀 Despliegue en Producción
+El proyecto está desplegado y accesible públicamente. Puedes acceder a la aplicación en el siguiente enlace:
 
-```bash
-# development
-$ npm run start
+[https://ecommerce-api-mbho.onrender.com/api](https://ecommerce-api-mbho.onrender.com/api)
 
-# watch mode
-$ npm run start:dev
+### Tecnologías utilizadas para el despliegue:
+- **Docker**: Contenedorización del backend y la base de datos.
+- **Cloudinary**: Gestión de imágenes para productos.
+- **PostgreSQL**: Base de datos relacional para almacenar la información.
+- **Servidor de Producción**: [Render]
 
-# production mode
-$ npm run start:prod
-```
+### Cómo probar el despliegue:
+- Accede al enlace proporcionado.
+- Usa las siguientes credenciales para probar funcionalidades específicas (si aplica):
+  - Usuario de prueba:
+    - **Email:** `example@mail.com`
+    - **Contraseña:** `Example1!`
+  - Administrador de prueba:
+    - **Email:** `exampleadmin@mail.com`
+    - **Contraseña:** `Example1!`
 
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+### Consideraciones:
+- **Ambiente de producción**: Configurado con variables de entorno protegidas.
